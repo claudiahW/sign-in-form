@@ -17,36 +17,34 @@
 
     <form action="/action_page.php">
         
-        <div class="input-group mb-3 mt-3">
-           <!-- <label for="name">Full Name:</label>-->
-<span class="input-group-text">Fullname:</span>
-            <input type="text" class="form-control" id="name" placeholder="Enter you full name here" name="name">
+        <div class="form-floating mb-3 mt-3">
+            <input type="text" class="form-control" id="name" placeholder="First Name" name="name">
+    
+            <label for="name">Full Name:</label>
         </div>
 
-        <div class=" input-group mb-3 mt-3">
-            <!-- <label for="phone">Phone Number:</label>-->
-
-            <span class="input-group-text">(+254):</span>
-                <input type="text" class="form-control" id="phone" placeholder="Enter your phone number here" name="number">
+        <div class="form-floating mb-3 mt-3">
+            <input type="text" class="form-control" id="phone" placeholder="Enter your phone number here" name="number">
+            <label for="phone">Phone Number:</label>
+                
          </div>
 
-    <div class="input-group mb-3 mt-3">
-      <!-- <label for="email"> Email:</label> -->   
-    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-    <span class="input-group-text">@example.com</span>
+    <div class="form-floating mb-3 mt-3">
+        <input type="email" class="form-control" id="email" placeholder="@example.com" name="email">
+    <label for="email"> Email:</label> 
+    
     </div>
 
-    <div class="input-group mb-3 mt-3">
-     <!--  <label for="password">Password:</label> -->
-     <span class="input-group-text">Password:</span>
-        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    <div class="form-floating mb-3 mt-3"> 
+     <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+     <label for="password">Password:</label> 
         
     </div>
 
-    <div class="input-group mb-3 mt-3">
-     <!--  <label for="rpassword">Repeat Password: </label> -->
-     <span class="input-group-text">Re-enter Password:</span>
-       <input type="password" class="form-control" id="rpwd" placeholder="Repeat password" name="rpwd">
+    <div class="form-floating mb-3 mt-3">
+        <input type="password" class="form-control" id="rpwd" placeholder="Repeat password" name="rpwd">
+       <label for="rpassword">Repeat Password: </label>
+       
     </div>
      
     <div class="form-check mb-3">
