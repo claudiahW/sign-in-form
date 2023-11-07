@@ -1,10 +1,12 @@
 .container{
-    margin:0;
+    margin:10px;
     border:2px solid black;
     text-align: center;
-    padding:auto;
+    padding-top:10px;
     display:block;
+    padding-bottom:20px;
 }
+
  .info{
     display:block;
     margin:auto;
